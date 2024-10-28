@@ -21,7 +21,7 @@ function handleFiles() {
   fileList.textContent = "";
   if (!this.files.length) {
     const p = document.createElement("p");
-    p.textContent = "No files selected!";
+    p.textContent = "No files selectedxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!";
     fileList.appendChild(p);
   } else {
     const list = document.createElement("ul");
